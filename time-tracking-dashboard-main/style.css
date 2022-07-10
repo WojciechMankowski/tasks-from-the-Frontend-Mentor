@@ -113,3 +113,15 @@ body {
 .SelfCare .tło {
   background-color: var(--softorange);
 }
+.btn{
+    color: white;
+}
+
+.submit{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+/* .activ */
