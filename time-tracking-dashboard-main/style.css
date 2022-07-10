@@ -1,0 +1,115 @@
+:root {
+  --colorblue: hsl(246, 80%, 60%);
+  --lightred: hsl(15, 100%, 70%);
+  --softblue: hsl(195, 74%, 62%);
+  --lightred_study: hsl(348, 100%, 68%);
+  --limegreen: hsl(145, 58%, 55%);
+  --violet: hsl(264, 64%, 52%);
+  --softorange: hsl(43, 84%, 65%);
+
+  --verydarkblue: hsl(226, 43%, 10%);
+  --colornavy: #191f40;
+  --blue: #514bf2;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--verydarkblue);
+  color: white;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 5%;
+}
+
+.imag {
+  width: 80%;
+  padding-bottom: 20px;
+}
+.imag img {
+  width: 80%;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+.inf {
+  padding: 12px 24px;
+  background-color: var(--blue);
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+.time {
+  padding: 12px 24px;
+  background-color: var(--colornavy);
+  transform: translateY(-10px);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.elements {
+  background-color: var(--colornavy);
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  position: relative;
+  bottom: -3px;
+  cursor: pointer;
+}
+.elements:hover {
+  background-color: #5568D9;
+}
+.points {
+  float: right;
+  cursor: pointer;
+}
+
+.elements h3 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.last {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.inf span {
+  font-size: 12px;
+}
+.tło {
+  height: 29px;
+  transform: translateY(10px);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.tło img {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+}
+.Work .tło {
+  background-color: var(--lightred);
+}
+.Study .tło {
+  background-color: var(--lightred_study);
+}
+.Play .tło {
+  background-color: var(--softblue);
+}
+.Exericce .tło {
+  background-color: var(--limegreen);
+}
+.Social .tło {
+  background-color: var(--violet);
+}
+.SelfCare .tło {
+  background-color: var(--softorange);
+}
