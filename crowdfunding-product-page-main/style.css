@@ -1,0 +1,39 @@
+:root {
+  --moderatecyan: hsl(176, 50%, 47%);
+  --darkcyan: hsl(176, 72%, 28%);
+
+  --black: hsl(0, 0%, 0%);
+  --darkgray: hsl(0, 0%, 48%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: var(--black);
+}
+header{
+    background-image: url(./images/image-hero-desktop.jpg);
+    background-size: cover;
+    width: 99.9vw;
+    height: 45vh;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 6px 24px;
+  color: #fff;
+}
+.menu ul {
+  list-style: none;
+
+}
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
